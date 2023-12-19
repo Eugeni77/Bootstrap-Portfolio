@@ -18,7 +18,12 @@
   }
   
   /* Navigation bar */
-  
+  body{
+    overflow-x: hidden;
+  }
+ 
+ 
+ 
   /* General */
   .customNav {
     position: fixed;
@@ -278,7 +283,7 @@ text-align: center;
 /* Media Queries*/
 
 /*Large devices*/
-@media (max-width: 992x) {
+@media (max-width: 992px) {
 .jumbotext p {
   font-size: 20px;
 }
@@ -316,7 +321,7 @@ text-align: center;
   margin-bottom: 5%;
 }
 #skills {
-  margin-top: 30%;
+  margin-top: 40%;
 }
 .card-title {
   font-size: 21px;
@@ -488,7 +493,7 @@ width: 50px;
  }
   
    /* Small devices- MOBILE PHONES*/
-   @media screen and (max-width: 600px) and (min-width: 400px) {
+   @media screen and (max-width: 576px) and (min-width: 400px) {
     .jumbotext h1 {
       font-size: 27px;
     }
@@ -522,7 +527,9 @@ width: 50px;
 .img-fluid {
   max-width: 200px;
  margin-left:60px;
- margin-bottom: -3%;
+ margin-bottom:revert-layer;
+ 
+ 
   }
 .container bg-secondary {
   width: 70%;}
@@ -532,7 +539,7 @@ width: 50px;
 
 /*SKILLS*/
 #skills {
-margin-top: 70%;
+margin-top: 100%;
 background: none;
 }
 
